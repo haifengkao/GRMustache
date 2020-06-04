@@ -405,7 +405,7 @@
  * Compare:
  *
  * ```
- * @ interface DBRecord : NSObject
+ * @interface DBRecord : NSObject
  * - (void)deleteRecord;
  * @end
  *
@@ -448,7 +448,7 @@
  * Compare:
  *
  * ```
- * @ interface DBRecord : NSObject
+ * @interface DBRecord : NSObject
  * - (void)deleteRecord;
  * @end
  *

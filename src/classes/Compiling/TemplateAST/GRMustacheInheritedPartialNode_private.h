@@ -56,7 +56,7 @@
  * Builds a GRMustacheInheritedPartialNode.
  *
  * @param parentPartialNode  The inherited partial.
- * @param templateAST        The AST that overrides the inherited partial template.
+ * @param overridingTemplateAST        The AST that overrides the inherited partial template.
  *
  * @return A GRMustacheInheritedPartialNode
  */
