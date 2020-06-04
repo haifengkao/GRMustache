@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
   s.license  = { :type => 'MIT', :file => 'LICENSE' }
   s.summary  = 'Flexible and production-ready Mustache templates for MacOS Cocoa and iOS.'
   s.homepage = 'https://github.com/haifengkao/GRMustacheObjC'
-  s.author   = { 'Gwendal Roué' => 'gr@pierlis.com' }
-  s.source   = { :git => 'https://github.com/haifengkao/GRMustacheObjC.git', :tag => 'v7.3.2' }
+  s.author   = { 'Hai Feng Kao' => 'haifeng@cocoaspice.in' }
+  s.source   = { :git => 'https://github.com/haifengkao/GRMustacheObjC.git', :tag => 'v7.5.0' }
   s.source_files = 'src/classes/**/*.{h,m}'
   s.private_header_files = 'src/classes/**/*_private.h'
   s.ios.deployment_target = '4.3'
