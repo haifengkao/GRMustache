@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/haifengkao/GRMustacheObjC.git', :tag => s.version.to_s}
   s.source_files = 'src/classes/**/*.{h,m}'
   s.private_header_files = 'src/classes/**/*_private.h'
-  s.ios.deployment_target = '4.3'
-  s.osx.deployment_target = '10.8'
+  s.ios.deployment_target = '10.0'
+  s.osx.deployment_target = '10.10'
   s.requires_arc = false
   s.framework = 'Foundation'
   s.dependency 'JRSwizzle', '~> 1.0'
